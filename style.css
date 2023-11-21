@@ -1,0 +1,396 @@
+.navbar
+{
+    z-index: 15;
+}
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    
+}
+.home-content h2
+{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.social-media
+{
+    transform: translateY(120px);
+   
+    
+}
+
+
+
+.icon
+{
+   width: 2rem;
+   height: 2rem;
+   background-color: rgba(0, 0, 0, 0.6);    
+}
+.icon:hover
+{
+    cursor: pointer; 
+}
+
+
+
+
+.p-1
+{
+    color: #999;
+}
+
+
+
+
+
+
+
+
+.divrange{
+    display: flex;
+    height: 25px;
+    overflow: hidden;
+    font-size: .9rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-bottom: 24px;
+
+}
+
+.black{
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: black;
+    
+
+}
+.btn-1
+{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    transition: all 1s;
+}
+.btn-2 
+{
+    border: solid 1px;
+    margin-left: 8px;
+    transition: all 1s;
+}
+.btn-2:hover
+{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+.btn-3
+{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    transition: all 1s;
+}
+.btn-4 
+{
+    border: solid 1px;
+    margin-left: 8px;
+    transition: all 1s;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+}
+.btn-4:hover
+{
+    background-color: black;
+    color: white;
+
+}
+
+.services{
+    background: #f7f7f7;
+    height: 110vh;
+}
+
+
+
+
+
+.Portfolio-items img
+{
+    width: 90%;
+}
+.Portfolio-items
+{
+    width: 100%;
+    position: relative;
+}
+.Portfolio-layer
+{
+    position: absolute;
+    width: 87%;
+    height: 95%;
+    top: 2%;
+    left:1%;
+    background-color: rgba(255, 255, 255, 0.956);
+    opacity: 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.Portfolio-layer p
+{
+    color: black;
+}
+
+.Portfolio-items:hover .Portfolio-layer
+{
+    opacity: 1;
+}
+
+
+.Portfolio
+{
+    font-size: 50px;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+}
+
+.p1
+{
+    background-color: none;
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: white;
+    color: black;
+}
+.fa-1
+{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    margin-left: 1px;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+.fa-1:hover
+{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+
+
+
+.carousel-indicators [data-bs-target]{
+    background-color:#D6D6D6 !important;
+    
+}
+
+.carousel-indicators{
+    top:100%;
+
+}
+
+.carousel-inner{
+
+color: #748182;
+
+}
+
+.carousel-inner h6{
+
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+}
+ 
+.carousel-inner span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.item{
+    width: 33%;
+    
+}
+
+.item h3{
+    color:black;
+    font-weight:1000;
+    font-size:14px;
+}
+
+.border{
+    border-bottom: solid black 2px;
+    width: 20%;
+    margin-left: 4%;
+}
+
+.child img:hover{
+
+    transform: scale(1.1, 1.1);
+    transition: transform 1s;
+    
+}
+
+
+
+
+
+
+
+
+.sec-1
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+.s-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.section
+{
+    
+    width: 60%;
+    
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+.part1
+{
+    width: 25%;
+
+}
+.icon1
+{
+    
+    width: 30%;
+    text-align: center;
+    margin-left: 33%;
+    font-size: 40px;
+    transition: all 1s;
+    
+}
+.icon1:hover
+{
+    background-color: black;
+    color: white;
+}
+.control
+{
+    margin-right: 15px;
+}
+
+
+
+
+.b-1{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+
+.home-content p
+{
+    font-weight: 100;
+    font-size: 70px;
+    position: relative;
+    transition: 2s;
+    
+}
+.home-content p::after
+{
+    content: '';
+    position: absolute;
+    animation: type 3s infinite;
+    
+    width: 100%;
+    left: 0%;
+    
+}
+@keyframes type {
+    0%{   content: 'I Am O|';}
+    10%{   content: 'I Am Om|';}
+    20%{   content: 'I Am Oma|';}
+    30%{   content: 'I Am Omar |';}
+    40%{   content: 'I Am Omar k|';}
+    50%{   content: 'I Am Omar khaled|';}
+    60%{   content: 'I Am Fron|';}
+    70%{   content: 'I Am Front End|';}
+    80%{   content: 'I Am Front End Deve|';}
+    90%{   content: 'I Am Front End Develo|';}
+    100%{   content: 'I Am Front End Developer|';}
+    
+}
+
+
+
